@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Prova</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+ 
+
+</head>
+
+
+<body >
+
+
+    <script>
+
+      
+      let messaggio, password;
+
+      messaggio=prompt("Scrivi un messaggio ai posteri", "banana"); //banana è il valore di default
+
+      alert(messaggio);
+
+
+
+      const anni=3; //const non puoi cambiargli valore
+
+
+
+      a=confirm("Confermi di avere almeno 18 anni");//confirm restituisce true (ok) o false (cancel/esc)
+
+      if (a==true){
+          alert("Hai confermato di essere maggiorenne, puoi entrare");
+          password= prompt("Scegli la tua password", "password");
+      }
+      else {
+        alert("Sei minorenne, non puoi accedere");
+        throw new Error();
+      }
+
+
+      let trypassword;
+
+      trypassword=prompt("Immetti password per il login","Password");
+
+      if (trypassword==password){
+
+        alert("bingo"+" "+ "sei dentro"); //+ per le stringe concatenazione stringe
+      }
+
+      else if (trypassword!=password) {
+
+        alert("Password"+" "+"errata" )
+
+      }
+
+
+
+
+      //ricorda tabella conversioni per le conversioni con number() boolean() string()
+
+
+
+        /* prova commento
+        multilinea , ricorda per cambiare i valori non bisogna ridichiarare le variabili */
+
+
+
+
+    </script>
+
+</body>
+
+</html>

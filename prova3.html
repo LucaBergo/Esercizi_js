@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Prova</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+ 
+
+</head>
+
+
+<body >
+
+
+    <script>
+
+        let a, b, c,d;
+
+        a=prompt("Inserisci un numero di cui fare la potenza ", "number");
+        b=prompt("Inserisci l'esponente a cui elevare la base", "number");
+
+        d=a**b;
+        alert(d);
+        
+
+        c= confirm("La risposta è giusta? (premi ok per si, cancel per no)"); /*confirm restituisce un boolean, 
+                                                                              typeof di c è un boolean*/
+        if (c==true){
+
+            alert("Ottimo, il sito funziona");
+        }
+        
+        else if (c==false) {
+
+            alert("Oh no, qualcosa è andato storto" );
+        }
+
+
+
+    </script>
+
+</body>
+
+</html>
